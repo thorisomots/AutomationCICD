@@ -1,0 +1,9 @@
+onlinesystems/pageobjects/CartPage.class
+onlinesystems/pageobjects/ProductCatalog.class
+onlinesystems/pageobjects/CheckoutPage.class
+onlinesystems/pageobjects/LandingPage.class
+onlinesystems/abstractComponents/AbstractComponents.class
+onlinesystems/pageobjects/ConfirmationPage.class
+onlinesystems/pageobjects/OrdersPage.class
+onlinesystems/resources/ExtentReporterNG.class
+onlinesystems/pageobjects/App.class
