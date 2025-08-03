@@ -10,7 +10,7 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="orderHistoryTest"/>
-          <include name="submitOrder"/>
+          <include name="submitOrder" invocation-numbers="0"/>
           <include name="luanchApplication"/>
         </methods>
       </class> <!-- onlinesystems.Tests.SubmitOrderTest -->
@@ -22,7 +22,6 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="submitOrder"/>
-          <include name="LoginValidation"/>
           <include name="luanchApplication"/>
         </methods>
       </class> <!-- onlinesystems.Tests.ErrorValidationsTest -->

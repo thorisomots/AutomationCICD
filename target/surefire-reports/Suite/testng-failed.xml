@@ -4,25 +4,13 @@
   <listeners>
     <listener class-name="onlinesystems.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
-    <classes>
-      <class name="onlinesystems.Tests.ErrorValidationsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="submitOrder"/>
-          <include name="LoginValidation"/>
-          <include name="luanchApplication"/>
-        </methods>
-      </class> <!-- onlinesystems.Tests.ErrorValidationsTest -->
-    </classes>
-  </test> <!-- Error Validation Test(failed) -->
   <test thread-count="5" parallel="tests" name="Submit Order(failed)" verbose="0">
     <classes>
       <class name="onlinesystems.Tests.SubmitOrderTest">
         <methods>
           <include name="closeBrowser"/>
           <include name="orderHistoryTest"/>
-          <include name="submitOrder"/>
+          <include name="submitOrder" invocation-numbers="1"/>
           <include name="luanchApplication"/>
         </methods>
       </class> <!-- onlinesystems.Tests.SubmitOrderTest -->

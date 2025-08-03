@@ -56,6 +56,12 @@ public class BaseTests {
 		if (browser.contains("chrome")) {
 			
 			ChromeOptions options = new ChromeOptions();
+			  options.addArguments("--disable-dev-shm-usage");
+			  options.addArguments("--no-sandbox");
+			  options.addArguments("--disable-gpu");
+			  options.addArguments("--remote-debugging-port=0");
+			  options.addArguments("--disable-blink-features=AutomationControlled");
+
 			WebDriverManager.chromedriver().setup();
 			if(browser.contains("headless")) {
 			
@@ -83,7 +89,7 @@ public class BaseTests {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		driver.manage().window().maximize();
+	//	driver.manage().window().maximize();
 
 		return driver;
 
