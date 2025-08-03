@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="6" passed="3" failed="1" skipped="1">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-03T10:04:40 SAST" name="Suite" finished-at="2025-08-03T10:05:33 SAST" duration-ms="53285">
+  <suite started-at="2025-08-03T13:04:24 SAST" name="Suite" finished-at="2025-08-03T13:05:18 SAST" duration-ms="54044">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorValidationsTest.LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" name="LoginValidation" class="onlinesystems.Tests.ErrorValidationsTest"/>
@@ -11,13 +11,41 @@
         <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" name="submitOrder" class="onlinesystems.Tests.SubmitOrderTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2025-08-03T10:04:40 SAST" name="Submit Order" finished-at="2025-08-03T10:05:18 SAST" duration-ms="37975">
-      <class name="onlinesystems.Tests.SubmitOrderTest">
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:04:41 SAST" name="luanchApplication" finished-at="2025-08-03T10:04:57 SAST" duration-ms="16869" status="PASS">
+    <test started-at="2025-08-03T13:04:24 SAST" name="Error Validation Test" finished-at="2025-08-03T13:04:47 SAST" duration-ms="23149">
+      <class name="onlinesystems.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:24 SAST" name="luanchApplication" finished-at="2025-08-03T13:04:37 SAST" duration-ms="12819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:04:57 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T10:05:09 SAST" duration-ms="11452" status="PASS">
+        <test-method signature="LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:37 SAST" name="LoginValidation" finished-at="2025-08-03T13:04:38 SAST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:38 SAST" name="closeBrowser" finished-at="2025-08-03T13:04:38 SAST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:38 SAST" name="luanchApplication" finished-at="2025-08-03T13:04:46 SAST" duration-ms="7572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:46 SAST" name="submitOrder" finished-at="2025-08-03T13:04:47 SAST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T13:04:47 SAST" name="closeBrowser" finished-at="2025-08-03T13:04:47 SAST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- onlinesystems.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-08-03T13:04:24 SAST" name="Submit Order" finished-at="2025-08-03T13:05:18 SAST" duration-ms="54044">
+      <class name="onlinesystems.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:04:25 SAST" name="luanchApplication" finished-at="2025-08-03T13:04:36 SAST" duration-ms="11435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:04:36 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T13:04:49 SAST" duration-ms="12360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:05:09 SAST" name="closeBrowser" finished-at="2025-08-03T10:05:09 SAST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:04:49 SAST" name="closeBrowser" finished-at="2025-08-03T13:04:49 SAST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:05:09 SAST" name="luanchApplication" finished-at="2025-08-03T10:05:15 SAST" duration-ms="6121" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:04:49 SAST" name="luanchApplication" finished-at="2025-08-03T13:04:57 SAST" duration-ms="8234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:05:15 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T10:05:17 SAST" duration-ms="2159" status="FAIL">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:04:57 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T13:05:09 SAST" duration-ms="11781" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,206 +72,26 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button _ngcontent-fwb-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (925, 438). Other element would receive the click: <div _ngcontent-fwb-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=138.0.7204.183)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-151-generic', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [695d409323e66511830060e753695429, clickElement {id=f.C697EC6E424011086C6D1BBF518480A2.d.C9910393B806EA084EAD3420EA159936.e.70}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36485/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on linux (695d409323e66511830060e753695429)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
-Session ID: 695d409323e66511830060e753695429]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-fwb-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (925, 438). Other element would receive the click: <div _ngcontent-fwb-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=138.0.7204.183)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-151-generic', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [695d409323e66511830060e753695429, clickElement {id=f.C697EC6E424011086C6D1BBF518480A2.d.C9910393B806EA084EAD3420EA159936.e.70}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36485/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on linux (695d409323e66511830060e753695429)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
-Session ID: 695d409323e66511830060e753695429
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at onlinesystems.pageobjects.ProductCatalog.addProductToCart(ProductCatalog.java:57)
-at onlinesystems.Tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:05:18 SAST" name="closeBrowser" finished-at="2025-08-03T10:05:18 SAST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:05:09 SAST" name="closeBrowser" finished-at="2025-08-03T13:05:09 SAST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T10:05:18 SAST" name="orderHistoryTest" finished-at="2025-08-03T10:05:18 SAST" depends-on-methods="onlinesystems.Tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method onlinesystems.Tests.SubmitOrderTest.orderHistoryTest() on instance onlinesystems.Tests.SubmitOrderTest@73eb439a depends on not successfully finished methods 
-[onlinesystems.Tests.SubmitOrderTest.submitOrder() on instance onlinesystems.Tests.SubmitOrderTest@73eb439a]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method onlinesystems.Tests.SubmitOrderTest.orderHistoryTest() on instance onlinesystems.Tests.SubmitOrderTest@73eb439a depends on not successfully finished methods 
-[onlinesystems.Tests.SubmitOrderTest.submitOrder() on instance onlinesystems.Tests.SubmitOrderTest@73eb439a]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:05:09 SAST" name="luanchApplication" finished-at="2025-08-03T13:05:16 SAST" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:05:16 SAST" name="orderHistoryTest" finished-at="2025-08-03T13:05:18 SAST" depends-on-methods="onlinesystems.Tests.SubmitOrderTest.submitOrder" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@73eb439a]" started-at="2025-08-03T13:05:18 SAST" name="closeBrowser" finished-at="2025-08-03T13:05:18 SAST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- onlinesystems.Tests.SubmitOrderTest -->
     </test> <!-- Submit Order -->
-    <test started-at="2025-08-03T10:04:40 SAST" name="Error Validation Test" finished-at="2025-08-03T10:05:33 SAST" duration-ms="53275">
-      <class name="onlinesystems.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:04:40 SAST" name="luanchApplication" finished-at="2025-08-03T10:04:57 SAST" duration-ms="16880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luanchApplication -->
-        <test-method retried="true" signature="LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:04:57 SAST" name="LoginValidation" finished-at="2025-08-03T10:05:11 SAST" duration-ms="14146" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .ng-star-inserted' (tried for 5 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .ng-star-inserted' (tried for 5 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at onlinesystems.abstractComponents.AbstractComponents.waitForElementToApearEL(AbstractComponents.java:48)
-at onlinesystems.pageobjects.LandingPage.getLoginErrorMsg(LandingPage.java:44)
-at onlinesystems.Tests.ErrorValidationsTest.LoginValidation(ErrorValidationsTest.java:26)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ng-star-inserted"}
-  (Session info: chrome=138.0.7204.183)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-151-generic', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c045054abb7d1d1fdd172b94defdc17c, findElement {using=css selector, value=.ng-star-inserted}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46325/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c045054abb7d1d1fdd172b94defdc17c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 23 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:11 SAST" name="closeBrowser" finished-at="2025-08-03T10:05:11 SAST" duration-ms="135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:11 SAST" name="luanchApplication" finished-at="2025-08-03T10:05:22 SAST" duration-ms="10980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luanchApplication -->
-        <test-method signature="LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:22 SAST" name="LoginValidation" finished-at="2025-08-03T10:05:23 SAST" duration-ms="1147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:23 SAST" name="closeBrowser" finished-at="2025-08-03T10:05:23 SAST" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:23 SAST" name="luanchApplication" finished-at="2025-08-03T10:05:32 SAST" duration-ms="8509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:32 SAST" name="submitOrder" finished-at="2025-08-03T10:05:33 SAST" duration-ms="1211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@7fb4f2a9]" started-at="2025-08-03T10:05:33 SAST" name="closeBrowser" finished-at="2025-08-03T10:05:33 SAST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- onlinesystems.Tests.ErrorValidationsTest -->
-    </test> <!-- Error Validation Test -->
   </suite> <!-- Suite -->
 </testng-results>

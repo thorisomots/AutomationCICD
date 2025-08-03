@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-02T18:49:12 SAST" name="Suite" finished-at="2025-08-02T18:50:10 SAST" duration-ms="57209">
+  <suite started-at="2025-08-03T12:59:43 SAST" name="Suite" finished-at="2025-08-03T13:00:27 SAST" duration-ms="44007">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" name="LoginValidation" class="onlinesystems.Tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" name="LoginValidation" class="onlinesystems.Tests.ErrorValidationsTest"/>
       </group> <!-- ErrorHandling -->
       <group name="purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" name="submitOrder" class="onlinesystems.Tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" name="submitOrder" class="onlinesystems.Tests.SubmitOrderTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2025-08-02T18:49:12 SAST" name="Error Validation Test" finished-at="2025-08-02T18:49:30 SAST" duration-ms="17800">
+    <test started-at="2025-08-03T12:59:43 SAST" name="Error Validation Test" finished-at="2025-08-03T13:00:06 SAST" duration-ms="22811">
       <class name="onlinesystems.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:13 SAST" name="luanchApplication" finished-at="2025-08-02T18:49:21 SAST" duration-ms="8896" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T12:59:43 SAST" name="luanchApplication" finished-at="2025-08-03T12:59:56 SAST" duration-ms="12640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:21 SAST" name="LoginValidation" finished-at="2025-08-02T18:49:22 SAST" duration-ms="884" status="PASS">
+        <test-method signature="LoginValidation()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T12:59:56 SAST" name="LoginValidation" finished-at="2025-08-03T12:59:57 SAST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:22 SAST" name="closeBrowser" finished-at="2025-08-02T18:49:23 SAST" duration-ms="496" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T12:59:57 SAST" name="closeBrowser" finished-at="2025-08-03T12:59:57 SAST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:23 SAST" name="luanchApplication" finished-at="2025-08-02T18:49:29 SAST" duration-ms="6649" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T12:59:57 SAST" name="luanchApplication" finished-at="2025-08-03T13:00:05 SAST" duration-ms="7576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:29 SAST" name="submitOrder" finished-at="2025-08-02T18:49:30 SAST" duration-ms="734" status="PASS">
+        <test-method signature="submitOrder()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T13:00:05 SAST" name="submitOrder" finished-at="2025-08-03T13:00:06 SAST" duration-ms="1297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@2a7ed1f]" started-at="2025-08-02T18:49:30 SAST" name="closeBrowser" finished-at="2025-08-02T18:49:30 SAST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.ErrorValidationsTest@13bc8645]" started-at="2025-08-03T13:00:06 SAST" name="closeBrowser" finished-at="2025-08-03T13:00:06 SAST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- onlinesystems.Tests.ErrorValidationsTest -->
     </test> <!-- Error Validation Test -->
-    <test started-at="2025-08-02T18:49:12 SAST" name="Submit Order" finished-at="2025-08-02T18:50:10 SAST" duration-ms="57209">
+    <test started-at="2025-08-03T12:59:43 SAST" name="Submit Order" finished-at="2025-08-03T13:00:27 SAST" duration-ms="44007">
       <class name="onlinesystems.Tests.SubmitOrderTest">
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:49:13 SAST" name="luanchApplication" finished-at="2025-08-02T18:49:24 SAST" duration-ms="11604" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T12:59:44 SAST" name="luanchApplication" finished-at="2025-08-03T12:59:53 SAST" duration-ms="8864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:49:24 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-02T18:49:42 SAST" duration-ms="17163" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T12:59:53 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T13:00:04 SAST" duration-ms="11467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:49:42 SAST" name="closeBrowser" finished-at="2025-08-02T18:49:42 SAST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:04 SAST" name="closeBrowser" finished-at="2025-08-03T13:00:04 SAST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:49:42 SAST" name="luanchApplication" finished-at="2025-08-02T18:49:49 SAST" duration-ms="7625" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:04 SAST" name="luanchApplication" finished-at="2025-08-03T13:00:12 SAST" duration-ms="7392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:49:49 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-02T18:50:00 SAST" duration-ms="11048" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:12 SAST" name="submitOrder" data-provider="getData" finished-at="2025-08-03T13:00:18 SAST" duration-ms="5954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,19 +75,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:50:00 SAST" name="closeBrowser" finished-at="2025-08-02T18:50:01 SAST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:18 SAST" name="closeBrowser" finished-at="2025-08-03T13:00:18 SAST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:50:01 SAST" name="luanchApplication" finished-at="2025-08-02T18:50:08 SAST" duration-ms="7570" status="PASS">
+        <test-method is-config="true" signature="luanchApplication()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:18 SAST" name="luanchApplication" finished-at="2025-08-03T13:00:26 SAST" duration-ms="7849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApplication -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:50:08 SAST" name="orderHistoryTest" finished-at="2025-08-02T18:50:10 SAST" depends-on-methods="onlinesystems.Tests.SubmitOrderTest.submitOrder" duration-ms="1465" status="PASS">
+        <test-method signature="orderHistoryTest()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:26 SAST" name="orderHistoryTest" finished-at="2025-08-03T13:00:27 SAST" depends-on-methods="onlinesystems.Tests.SubmitOrderTest.submitOrder" duration-ms="1586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@7d9f158f]" started-at="2025-08-02T18:50:10 SAST" name="closeBrowser" finished-at="2025-08-02T18:50:10 SAST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:onlinesystems.Tests.SubmitOrderTest@4f49f6af]" started-at="2025-08-03T13:00:27 SAST" name="closeBrowser" finished-at="2025-08-03T13:00:27 SAST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

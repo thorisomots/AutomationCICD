@@ -61,6 +61,11 @@ public class BaseTests {
 			  options.addArguments("--disable-gpu");
 			  options.addArguments("--remote-debugging-port=0");
 			  options.addArguments("--disable-blink-features=AutomationControlled");
+			  // Create unique user data directory to prevent "user data directory already in use" errors
+			  // This is essential for CI/CD environments like Jenkins where multiple Chrome instances may run simultaneously
+			  // Each test gets isolated Chrome profile preventing conflicts and ensuring test reliability
+			  String userDataDir = System.getProperty("java.io.tmpdir") + "chrome-user-data-" + System.currentTimeMillis();
+			  options.addArguments("--user-data-dir=" + userDataDir);
 
 			WebDriverManager.chromedriver().setup();
 			if(browser.contains("headless")) {
